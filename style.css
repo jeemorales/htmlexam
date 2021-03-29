@@ -1,0 +1,209 @@
+*{
+    outline: 1px dotted black;
+    margin: 0;
+}
+header{
+    background-color: #347abe;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header i{
+    padding: 5px 10px 5px 10px;
+}
+header .links{
+    margin-left: 500px;
+}
+header .logo, header .searchbox, header .cart{
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    padding: 5px 0 5px 0;
+}
+header .logo h1{
+    display: inline-block;
+    padding: 5px 50px 5px 20px;
+    /* background-color: violet; */
+    vertical-align: top;
+    font-size: 40px;
+}
+header .logo img{
+    height: 40px;
+}
+header .searchbox{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+header .searchbox p{
+    background-color: #e1ebed;
+    display: inline-block;
+    padding: 6px;
+    color: black;
+    /* font-size:0px; */
+}
+header .searchbox input{ 
+    /* padding: 10px 25px 10px 25px; */
+    width: 700px;
+    height: 35px;
+    margin: 0;
+}
+header .searchbox button{
+    padding: 10px;
+    background-color: #f6c24a;
+    color: black;
+    border-radius: 10px;
+    margin: 0;
+    padd
+}
+header .logo .cart{
+    display: inline-block;
+    margin-left: 200px;
+    width: 200px;
+}
+header .cart i{
+    background-color: green;
+}
+
+.nav{
+    box-shadow: 0px 3px 3px #888888;
+    /* display: inline-block; */
+}
+.nav li{
+    display: inline-block;
+    color: #6295c5;
+    padding: 5px 10px 5px 10px;
+}
+.nav .department{
+    padding: 0 50px 0 30px;
+    border-right: 1px solid gray;
+}
+.nav .red{
+    color: #c94b53;
+}
+.nav .reorder{
+    margin-left: 650px;
+}
+
+section{
+    display: inline-block;
+}
+section .carousel{
+    height: 280px;
+    /* background-color: tomato; */
+    margin: 0 400px;
+    padding: 20px 0;
+    width: 300px;
+    display: inline-block;
+}
+/* section .carousel img{
+    height: 200px ;
+} */
+section .carousel h3{
+    color: #367dc0;
+    font-size: 30px;
+}
+section .carousel h1{
+    color: #86bd56;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+}
+section .carousel h2{
+    color: #86bd56;
+    font-size: 40px;
+}
+section .carousel .orange{
+    color: #f57421;
+}
+section .carousel p{
+    display: inline-block;
+}
+
+section .content{
+    background-color: #f2f8fc;
+}
+section .content .refund p{
+    display: inline-block;
+    padding: 3px 1300px 3px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+section .content a{
+    text-decoration: none;
+}
+
+section .content .item{
+    /* height:400px; */
+    width: 220px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px 30px 20px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+section .content .item img{
+    height: 150px;
+    width: 220px;
+}
+section .content .item .save{
+    color: #e30402;
+    padding-bottom: 4px;
+}
+section .content .item .price{
+    color: #367dc0;
+}
+section .content .item .star p{
+    display: inline-block;
+    color: #367dc0;
+}
+section .content .item .star i{
+    color: yellow;
+    padding-top: 10px;
+}
+
+section .content-two .items{
+    display: inline-block;
+    margin: 10px 10px 30px 20px;
+    border-radius: 10px;
+}
+section .content-two .items img{
+    height: 230px;
+}
+section .content-two .items p{
+    text-align: center;
+    color: #367dc0;
+}
+section .content-two .shipping{
+    display: inline-block;
+    vertical-align: top;
+}
+section .content-two .shipping img{
+    height: 230px;
+    width: 230px;
+    margin: 10px 0px 30px 20px;
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    body{
+        /* display: none; */
+    }
+    header .links{
+        display: none;
+    }
+    header .searchbox p, .nav li{
+        display: none;
+    }
+    header img, header .fa-search{
+        
+    }
+
+  }
